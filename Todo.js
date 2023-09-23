@@ -26,7 +26,7 @@ function Todo(props) {
 
     //let cstate = localStorage.getItem('Todo') == null ? tlist : JSON.parse(localStorage.getItem('Todo'));
 
-    const [todo,todoState] = useState([]);
+    const [todo,todoState] = useState(tlist);
     const [keyword,setKeyword] = useState("");
     const [txt,setTxt] = useState("");
 

@@ -13,7 +13,7 @@ function AddTodo(props) {
     return (
         <form>
             {/* <textarea ></textarea><br/> */}
-            <button type="button" onClick={addTask()}>Add new Task?</button>
+            <button type="button" onClick={()=>{addTask()}}>Add new Task?</button>
             <input type="text" value={keyword} onChange={searchTask} placeholder="Type to search a task"></input>
         </form>
     )
